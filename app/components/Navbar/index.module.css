@@ -1,0 +1,72 @@
+.navbarContainer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logoDesc{
+    font-size: 20px;
+    font-weight: 700;
+}
+.link{
+    display: flex;
+    align-items: center;
+    padding: 4px 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.loginBtn{
+    background-color: #1e40af;
+    outline: 0;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* mobile area start */
+.mobileMenuIcon{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 15px;
+}
+.mobileLinksArea{
+    
+    position: fixed;
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;    
+}
+
+.mobileMenuLinks {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px;
+  }
+  .mobileLink{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 10px;
+  }
+  .mobileLoginBtn{
+    background-color: #1e40af;
+    outline: 0;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+/* mobile area end */
