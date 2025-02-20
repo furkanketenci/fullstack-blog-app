@@ -1,9 +1,11 @@
+import { SignIn } from "@clerk/nextjs";
 import React from "react";
+import styles from "./index.module.css";
 
 const LoginPage = () => {
     return (
-        <div>
-            LoginPage
+        <div className={styles.loginPageContainer}>
+            <SignIn signUpUrl="/register" />
         </div>
     )
 }

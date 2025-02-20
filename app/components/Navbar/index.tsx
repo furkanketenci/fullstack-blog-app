@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import styles from "./index.module.css";
 import Link from "next/link";
 import { useIsMobile } from "@/app/hooks/useMediaQuery";
+import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 const menuLinks = [
     {
@@ -48,9 +49,16 @@ const Navbar = () => {
                                 )
                             })
                         }
-                        <button className={styles.loginBtn}>
-                            Login
-                        </button>
+                        <SignedOut>
+                            <Link href={"/login"}>
+                                <button className={styles.loginBtn}>
+                                    Login
+                                </button>
+                            </Link>
+                        </SignedOut>
+                        <SignedIn>
+                            <UserButton />
+                        </SignedIn>
                     </ul>
                 }
                 {/* Mobile menü area start */}
