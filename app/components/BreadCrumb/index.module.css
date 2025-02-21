@@ -1,0 +1,20 @@
+.breadCrumbWrapper{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.brdCrumbFirstTxt{
+    font-size: 14px;
+}
+.brdCrumbDot{
+    padding: 0px 15px;
+    font-size: 25px;
+    position: relative;
+    top: -6px;
+}
+.brdCrumbSecondTxt{
+    font-size: 14px;
+    color: #1e40af;
+    font-weight: 400;
+}
+
