@@ -1,3 +1,6 @@
+.introductionContainer{
+    animation: fadeIn 1s ease-in;
+}
 .introductionWrapper {
     padding-top: 20px;
     display: flex;
@@ -8,7 +11,7 @@
 .introductionText {
     font-size: 60px;
     margin-right: 40px;
-    animation: fadeIn 1s ease-in;
+  
 }
 
 .writeStoryContainer {
@@ -53,6 +56,11 @@
     width: 24px;
     height: 24px;
     animation: bounce 2s infinite;
+}
+.desc{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 @keyframes rotate {
