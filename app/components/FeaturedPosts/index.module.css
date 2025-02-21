@@ -1,0 +1,57 @@
+.featuredPostsContainer{
+    margin-top: 30px;
+    display: flex;
+}
+.otherPostsWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.mainImg{
+    border-radius: 8px;
+}
+.otherImg{
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.mainPostWrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+.blogDescArea{
+    margin-top: 10px;
+}
+.otherDescArea{
+    margin-left: 20px;
+}
+.orderText{
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.topicText{
+    color: #1e40af;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.dateText{
+    font-weight: 400;
+    font-size: 13px;
+    color: gray;
+}
+.desc{
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.otherPostsArea{
+    display: flex;
+}
+.otherDesc{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -53,28 +53,7 @@ const categories = [
         title: "Marketing",
         href: "/",
         id: 10
-    },
-    {
-        title: "All Posts",
-        href: "/",
-        id: 11
-    },
-    {
-        title: "Marketing",
-        href: "/",
-        id: 12
-    },
-    {
-        title: "Marketing",
-        href: "/",
-        id: 13
-    },
-    {
-        title: "Marketing",
-        href: "/",
-        id: 14,
-    },
-
+    }
 ]
 
 const MainCategories = () => {
