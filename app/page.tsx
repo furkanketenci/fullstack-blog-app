@@ -3,6 +3,7 @@ import Introduction from './components/Introduction';
 import BreadCrumb from './components/BreadCrumb';
 import MainCategories from './components/MainCategories';
 import FeaturedPosts from './components/FeaturedPosts';
+import PostList from './components/PostList';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Introduction />
       <MainCategories />
       <FeaturedPosts />
+      <PostList />
     </div>
   )
 }
