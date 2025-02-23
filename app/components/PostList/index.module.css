@@ -1,0 +1,40 @@
+.postListContainer{
+    margin-top: 40px;
+}
+.generalTitle{
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 22px;
+}
+.postListWrapper{
+    display: flex;
+}
+.postImage{
+    border-radius: 8px;
+    margin-right: 30px;
+}
+.desc{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.subDesc{
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+}
+.spesificPart{
+    color: #1e40af;
+    font-size: 12px;
+}
+.content{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+.readMore{
+    color: #1e40af;
+    font-size: 12px;
+    text-decoration: underline;
+}
